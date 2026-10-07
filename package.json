@@ -1,0 +1,11 @@
+{
+  "name": "user-profile-card-generator",
+  "version": "1.0.0",
+  "description": "Server-side profile card generator using Node.js, Express and MongoDB",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.19.0"
+  }
+}
