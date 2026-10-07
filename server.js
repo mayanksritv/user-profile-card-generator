@@ -4,7 +4,7 @@ const path = require("path");
 
 const app = express();
 const PORT = process.env.PORT || 10000;
-const MONGODB_URI = "mongodb+srv://mayanksri359_db_user:BTcJ6Udpibq8nfTn@cluster0.h3ltwx1.mongodb.net/mayankdata";
+const MONGODB_URI = process.env.MONGODB_URI;
 const DB_NAME = process.env.DB_NAME || "profile_card_generator";
 
 let profilesCollection;
